@@ -1,0 +1,29 @@
+body {
+  background-image: url(../img/bg/detail.jpg);
+}
+
+.card {
+  margin-top: 200px;
+  padding: 10px;
+  font-family: "Questrial", sans-serif;
+}
+
+.card img {
+  height: 440px;
+}
+
+.card-action {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 768px) {
+  .card {
+    height: 440px;
+  }
+  .card-content {
+    margin-top: -40px;
+  }
+  .card img {
+    height: 350px;
+  }
+}

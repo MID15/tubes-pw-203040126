@@ -1,0 +1,88 @@
+body {
+  overflow-x: hidden;
+}
+
+nav {
+  font-family: "Montserrat", sans-serif;
+}
+
+.sidenav {
+  font-family: "Montserrat", sans-serif;
+}
+
+.slider h3,
+h5 {
+  text-shadow: 1px 1px #111;
+}
+
+/* buku */
+.buku h2 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+.buku .cari {
+  display: flex;
+}
+
+.buku .cari button {
+  margin-top: 10px;
+}
+
+.buku .cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cari {
+  display: flex;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.cari button {
+  margin-top: 10px;
+}
+
+.cari span {
+  margin-top: 5px;
+}
+
+.card {
+  width: 600px;
+  height: 250px;
+  margin: 10px;
+  font-family: "Questrial", sans-serif;
+}
+
+.card img {
+  height: 250px;
+}
+
+.card .penulis {
+  display: inline;
+  background-color: rgb(194, 194, 194);
+  border-radius: 50px;
+  padding: 5px;
+}
+
+.card .judul {
+  font-size: 20px;
+}
+
+/* footer */
+footer {
+  padding: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: 400px;
+    height: 200px;
+  }
+
+  .card img {
+    height: 200px;
+  }
+}

@@ -1,0 +1,44 @@
+body {
+  background-image: url(../img/bg/login.jpg);
+  background-repeat: initial;
+  background-size: cover;
+}
+
+.container {
+  width: 40%;
+  margin-top: 200px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-family: "Montserrat", sans-serif;
+}
+
+form {
+  padding: 30px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+form input {
+  color: white;
+}
+
+form label {
+  color: white;
+  font-size: 18px;
+}
+
+form .button {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 80%;
+  }
+}

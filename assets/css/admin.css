@@ -1,0 +1,70 @@
+body {
+  background-image: url(../img/bg/admin.jpg);
+}
+
+nav {
+  font-family: "Montserrat", sans-serif;
+}
+
+.left {
+  margin-left: 150px;
+}
+
+.daftarBuku h2 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.cari {
+  display: flex;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.cari button {
+  margin-top: 10px;
+}
+
+.cari span {
+  margin-top: 5px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  width: 900px;
+  padding: 10px;
+  font-family: "Questrial", sans-serif;
+}
+
+.card img {
+  height: 400px;
+}
+
+.card span {
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: 430px;
+  }
+
+  .card img {
+    height: 300px;
+  }
+
+  .card-content {
+    margin-top: -40px;
+  }
+
+  .card-action {
+    margin-left: -150px;
+    margin-top: -90px;
+  }
+}

@@ -1,0 +1,44 @@
+body {
+  background-image: url(../img/bg/tambah.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tambah .container {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.tambah h3 {
+  text-align: center;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+form {
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+input {
+  color: white;
+}
+
+textarea {
+  color: white;
+}
+
+label {
+  color: white;
+  font-size: 20px;
+}
+
+.form-field {
+  margin-top: 20px;
+}
+
+form .button {
+  display: flex;
+  justify-content: space-between;
+}
