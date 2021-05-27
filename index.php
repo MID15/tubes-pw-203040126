@@ -6,7 +6,6 @@
     */
 ?>
 <?php
-<?php
 // Melakukan koneksi ke database
 require 'php/functions.php';
 
